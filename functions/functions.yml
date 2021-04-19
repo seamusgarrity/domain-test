@@ -1,0 +1,6 @@
+test:
+  handler: functions/handler.test
+  events:
+    - http:
+        path: hello
+        method: get
